@@ -15,6 +15,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        string str = "Phat trien phan mem quan ly nhom 02";
         return View();
     }
 
